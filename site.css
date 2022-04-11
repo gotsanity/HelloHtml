@@ -1,0 +1,49 @@
+/* least specific (basic 1.0 weight) */
+/* ul {
+    font-size: 1.5em;
+} */
+
+/* middle specific (add weight 10) */
+.double-size {
+    font-size: 2.0em;
+    color: blue;
+}
+
+/* more specific than class and element (add weight 20) */
+#toast {
+    font-size: 3.0em;
+}
+
+/* special specificity  (multiplies by 50) */
+.important-size {
+    font-size: 1.0em !important;
+}
+
+/* ul li.double-size {
+    font-size: 2.0em;
+} */
+
+/* 
+
+element - element selector
+. - Class selector (can have multiple classes, this will return multiple element, 1 to many)
+# - Identifier (supposed to return a single element. should be unique)
+!important - override the specificity rules
+*/
+
+
+/* real styles below */
+
+ul#recipe-meta {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+
+ul#recipe-meta li {
+    /* display: inline;  */
+    display: inline-block;
+    margin: 10px;
+    line-height: 50px;
+}
