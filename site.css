@@ -72,3 +72,17 @@ ul#recipe-meta li {
     /* margin: top right bottom left */
     margin: 10px 0px 10px 0px;
 }
+/* 
+.float-right {
+    float: left;
+    margin-right: 20px;
+} */
+
+.ingredients-list li {
+    
+}
+
+.float-right {
+    float: right;
+    /* margin-right: 0px; */
+}
