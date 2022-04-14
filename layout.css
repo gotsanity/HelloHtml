@@ -1,0 +1,60 @@
+/* global effect, changes the body of the html */
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+div.navbar {
+    height: 80px;
+    background-color: hotpink;
+}
+
+div.mainbody {
+    height: 500px;
+    width: 100%;
+    background-color:coral;
+}
+
+div.footer {
+    height: 100px;
+    width: 100%;
+    background-color: chartreuse;
+}
+
+div.sidebar {
+    display: inline-block;
+    height: 50px;
+    width: 25%;
+    background-color: red;
+}
+
+div.main {
+    display: inline-block;
+    height: 50px;
+    width: 74%;
+    background-color: blue;
+}
+
+li.navlink {
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 15px;
+    margin: 5px;
+    border: 1px black solid;
+    display: inline-block;
+}
+
+li.navlink a {
+    text-decoration: none;
+    color: black;
+}
+
+li.navlink:hover {
+    background-color: grey;
+}
+
+li.navlink a:hover {
+    color: white;
+    background-color: grey;
+}
